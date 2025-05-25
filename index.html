@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <!----Font awesome cdn  font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+     <div class="hero-header" id="home">
+        <div class="wrapper">
+            <header>
+                <a href="#home">
+                <div class="logo">
+                    <i class="fa-regular fa-angle-double-right"></i>
+                    <div class="logo-text">Luis Pingul</div>
+                </div>
+                </a>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#home"><i class="fa-solid fa-home" id="icon" style="margin-right: 5px;" ></i>Home</a></li>
+                        <li><a href="#about" ><i class="fa-solid fa-user" id="icon" style="margin-right: 5px;" ></i>About Me</a></li>
+                        <li><a href="#experience" ><i class="fa-solid fa-laptop" id="icon" style="margin-right: 5px;" ></i>Experience</a></li>
+                        <li><a href="#portfolio" ><i class="fa-solid fa-folder" id="icon" style="margin-right: 5px;" ></i>Portfolio</a></li>
+                        <li><a href="#contact" ><i class="fa-solid fa-book" id="icon" style="margin-right: 5px;" ></i>Contact</a></li>
+                        <li><a href="Luis_Pingul_Resume.pdf" download><i class="fa-solid fa-download" style="margin-right:5px;"></i>Résumé</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                 <div class="hero-pic">
+                    <img src="/assets/me AI.jpeg" alt="profile pic">
+                 </div>
+                 <div class="hero-text">
+                    <h1><span style="color: white;">Hi I'm </span>Luis Pingul</h1>
+                    <h3>I'm into <span class="input">Graphic Designing</span></h3>
+                    <br>
+                    <p> I help bring ideas to life through compelling visuals, creative edits,
+                         and captivating designs. Whether it's behind the camera, on the editing timeline, 
+                         or in the design space<br><br> — I turn stories into visual experiences.
+                         <br><br>
+                        🎬 Explore my work and let’s create something amazing together.
+                    </p>
+
+                    <div class="btn-group">
+                       <a href="#about" class="btn">About Me</a>
+                       <a href="#contact" class="btn">Contact</a>
+                       <a href="Luis_Pingul_Resume.pdf" download class="btn resume-btn">
+                        <i class="fa-solid fa-download"></i> Download Résumé
+                      </a>
+                      
+                    </div>
+
+                    <div class="social">
+                        <a href="https://web.facebook.com/luis.pingul"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/luispingul/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/LuisPingul"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+     </div>
+     <!-- About Me Section -->
+     <section class="section" id="about">
+        <div class="about-container">
+          <div class="about-pic">
+            <img src="/assets/me.jpg" alt="Luis Pingul">
+          </div>
+          <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+              I'm Luis Pingul, a multimedia creative who blends imagination with digital precision.
+              From video editing to graphic design, I bring ideas to life through powerful visuals and storytelling.
+            </p>
+      
+            <h3>Tools & Software I Use</h3>
+            <div class="skills">
+                <div class="skill">
+                  <span><span class="badge ps">Ps</span> Adobe Photoshop</span>
+                  <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill">
+                    <span><span class="badge pr">Pr</span> Adobe Premiere Pro</span>
+                  <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+                </div>
+                <div class="skill">
+                    <span><span class="badge ae">Ae</span> Adobe After Effects</span>
+                  <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill">
+                    <span><span class="badge ai">Ai</span> Adobe Illustrator</span>
+                  <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+                <div class="skill">
+                    <span><span class="badge lr">Lr</span> Adobe Lightrooom</span>
+                  <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+  
+  <!-- Experience Section -->
+  <section class="section" id="experience">
+    <div class="section-content">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Senior Video Editor</h3>
+          <span>Sonshine Media Network International (2015 – 2022)</span>
+          <p>Produced high-quality videos with dynamic editing styles, gaining traction through engaging visual storytelling.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Freelance Video Editor & Grpahics Designer</h3>
+          <span>(2022 - present)</span>
+          <p>Handled various creative projects including branding, promotional videos, and visual content for clients in diverse industries.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <a href="https://web.facebook.com/archlightmedia/reels/" class="portfolio-item" target="_blank">
+        <img src="/assets/Reels.jpg" alt="Project 1">
+        <div class="portfolio-info">
+          <h3>Video Editing Reel</h3>
+          <p>Adobe Premiere Pro, After Effects</p>
+        </div>
+    </a>
+      <a href="https://web.facebook.com/waxisdavao" class="portfolio-item">
+        <img src="eat-good-feel-good-SOCMED-posster.jpg" alt="Project 2">
+        <div class="portfolio-info">
+          <h3>Poster Design</h3>
+          <p>Photoshop, Illustrator</p>
+        </div>
+    </a>
+      <a href="https://www.youtube.com/@ArchlightMedia2.0/videos" class="portfolio-item">
+        <img src="/assets/documentaries.jpg" alt="Project 3">
+        <div class="portfolio-info">
+          <h3>Documentaries</h3>
+          <p>Direction, Editing, Color Grading</p>
+        </div>
+    </a>
+      <!-- Add more items as needed -->
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p class="contact-description">
+      Have a project in mind or just want to say hello? Feel free to reach out!
+    </p>
+  
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  
+    <div class="contact-social">
+      <a href="https://web.facebook.com/luis.pingul" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.instagram.com/luispingul/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/LuisPingul" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+  </section>
+  
+  <footer>
+    <p>Designed & Developed by <span>Luis Pingul</span> © 2025</p>
+  </footer>
+  
+     <!---typed js for typing text effect-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+     <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Graphic Designing","Videography","Photo Editing","Video Editing"],
+            typedSpeed:65,
+            backSpeed:55,
+            loop:true
+        })
+     </script>
+     <script>
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              document.querySelectorAll('.progress').forEach(bar => {
+                const width = bar.style.width;
+                bar.style.width = '0';
+                setTimeout(() => {
+                  bar.style.width = width;
+                }, 100);
+              });
+            }
+          });
+        }, { threshold: 0.3 });
+      
+        observer.observe(document.querySelector('#about'));
+      </script>
+      
+</body>
+</html>
