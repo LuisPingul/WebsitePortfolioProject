@@ -730,11 +730,14 @@ body {
 @media (max-width: 768px) {
   .portfolio-grid {
     grid-template-columns: 1fr;
+
   }
 
   .portfolio-info {
-    text-align: center;
+    text-align: left;
   }
+
+
 }
 
 
